@@ -1,0 +1,24 @@
+1.Open your browser.
+2.Go to: Oracle JDK Download Page
+3.Search on Google: “Java JDK download Oracle”
+4.Download the latest version (e.g., JDK 23/22/21) for Windows x64 Installer (.exe).
+5.Double-click the downloaded .exe file.
+6.Click Next → Next → Install.
+
+---------------------------------------------------------------------
+
+7.Press Windows + S → search “Environment Variables”
+8.Click Environment Variables…
+9.Under System Variables → click New
+10.Variable Name: JAVA_HOME
+11.Variable Value: path to your JDK folder
+Path ---->C:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin
+
+----------------------------------------------------------------------
+
+12.In the same window → Under System Variables
+13.Select Path → Edit
+14.Click New
+15.peste and save
+16.Open Command Prompt and type: type--->  "java -version"
+If Java is installed correctly, this commands will show the version.
