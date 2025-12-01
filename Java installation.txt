@@ -1,3 +1,5 @@
+## Java Installation Process ##
+
 1.Open your browser.
 2.Go to: Oracle JDK Download Page
 3.Search on Google: “Java JDK download Oracle”
@@ -22,3 +24,38 @@ Path ---->C:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin
 15.peste and save
 16.Open Command Prompt and type: type--->  "java -version"
 If Java is installed correctly, this commands will show the version.
+
+
+
+##  Maven Installation Process ##
+
+
+1. Download Apache Maven
+ Go to official Maven download page: https://maven.apache.org/download.cgi
+ Download: Binary zip archive (apache-maven-3.9.11-bin.zip)
+
+3. Extract Maven
+Extract the ZIP file.
+
+Move the folder to a safe location: C:\apache-maven-3.9.11
+Now inside it you must see folders like:
+bin
+boot
+conf
+
+4. Set Environment Variables
+Search Environment Variables
+Click Environment Variables
+Under System variables → New
+Variable name: MAVEN_HOME
+Variable value: C:\apache-maven-3.9.11
+
+4. Add Maven to PATH
+Select Path → Edit → New
+C:\apache-maven-3.9.11\bin
+
+
+5. Verify Installation
+Open CMD and run:
+mvn -version
+If Maven is installed correctly, this commands will show the version.
